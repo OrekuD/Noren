@@ -1,0 +1,35 @@
+.benefits {
+  padding: 100px 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .benefit {
+    width: 260px;
+    height: 340px;
+    border-radius: 25px;
+    background-color: #f7fafd;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+
+    img {
+      width: 115px;
+      height: 110px;
+      object-fit: contain;
+      align-self: center;
+    }
+
+    .title {
+      font-size: 26px;
+      font-family: "GilroyBold";
+      margin-top: 50px;
+    }
+
+    .sub-title {
+      font-size: 14px;
+      font-family: "GilroyRegular";
+      margin-top: 3px;
+    }
+  }
+}
