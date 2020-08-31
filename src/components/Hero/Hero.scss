@@ -1,0 +1,58 @@
+.hero-section {
+  padding: 30px 150px;
+  display: flex;
+
+  .hero-image {
+    width: calc(90vh * 0.83);
+    height: 90vh;
+    object-fit: contain;
+  }
+
+  .content {
+    padding-top: 40px;
+
+    .title {
+      font-family: "GilroyBold";
+      font-size: 56px;
+    }
+
+    .subtitle {
+      font-family: "GilroyRegular";
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 60px;
+    }
+
+    .item {
+      display: flex;
+      margin-bottom: 20px;
+
+      .color-container {
+        width: 58px;
+        height: 85px;
+        background: #f9f8f8;
+        margin-right: 15px;
+        border-radius: 30px;
+
+        .color {
+          width: 58px;
+          height: 58px;
+          border-radius: 30px;
+          display: grid;
+          place-items: center;
+
+          p {
+            color: white;
+            font-size: 20px;
+            font-family: "GilroyBold";
+          }
+        }
+      }
+
+      .label {
+        font-size: 20px;
+        font-family: "GilroyRegular";
+      }
+    }
+  }
+}
