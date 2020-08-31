@@ -1,0 +1,14 @@
+.brands {
+  min-height: 130px;
+  background-color: #f7fafd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 230px;
+
+  img {
+    width: 90px;
+    height: 30px;
+    object-fit: contain;
+  }
+}

@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.scss";
-import { Banner } from "./components";
+import { Banner, Brands } from "./components";
 
 function App() {
   return (
     <>
       <Banner />
+      <Brands />
     </>
   );
 }
