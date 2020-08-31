@@ -32,3 +32,9 @@ html {
   font-family: "GilroyMedium";
   src: url(./assets/fonts/Gilroy-Medium.ttf);
 }
+
+button {
+  &:focus {
+    outline: none;
+  }
+}
