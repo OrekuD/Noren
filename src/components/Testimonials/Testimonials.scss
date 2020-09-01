@@ -1,0 +1,85 @@
+.testimonials {
+  padding: 40px 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .section {
+    margin-right: 30px;
+    width: 280px;
+
+    img {
+      width: 250px;
+      height: 150px;
+      object-fit: contain;
+    }
+
+    .title {
+      font-size: 30px;
+      font-family: "GilroyBold";
+      margin: 20px 0;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      font-family: "GilroyRegular";
+      line-height: 20px;
+    }
+  }
+
+  .testimonial {
+    width: 340px;
+    height: 255px;
+    border: 1px solid #ececec;
+    border-radius: 30px;
+    padding: 25px;
+
+    .profile {
+      display: flex;
+      align-items: center;
+
+      .profile-image {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        margin-right: 10px;
+        object-fit: cover;
+      }
+
+      .details {
+        .name {
+          font-size: 16px;
+          font-family: "GilroyMediumItalic";
+        }
+
+        .role {
+          font-size: 14px;
+          font-family: "GilroyMedium";
+        }
+      }
+
+      .number {
+        width: 37px;
+        height: 37px;
+        border-radius: 100%;
+        background-color: #f8f4f4;
+        display: grid;
+        place-items: center;
+        margin-left: auto;
+
+        p {
+          font-size: 14px;
+          font-family: "GilroyBold";
+        }
+      }
+    }
+
+    .comment {
+      font-size: 14px;
+      font-family: "GilroyRegular";
+      margin-top: 15px;
+      width: 90%;
+      line-height: 20px;
+    }
+  }
+}
