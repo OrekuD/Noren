@@ -33,10 +33,22 @@
   .content {
     width: 50%;
 
+    @media (max-width: 720px) {
+      width: 100%;
+    }
+
     .title {
       font-family: "GilroyBold";
       font-size: 56px;
       margin-top: 40px;
+
+      @media (max-width: 1024px) {
+        font-size: 42px;
+      }
+
+      @media (max-width: 720px) {
+        font-size: 32px;
+      }
     }
 
     .subtitle {
@@ -62,5 +74,14 @@
     width: 50%;
     height: 400px;
     object-fit: contain;
+
+    @media (max-width: 1024px) {
+      width: 40%;
+      height: 300px;
+    }
+
+    @media (max-width: 720px) {
+      display: none;
+    }
   }
 }

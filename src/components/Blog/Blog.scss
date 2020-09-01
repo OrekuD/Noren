@@ -18,6 +18,10 @@
     font-size: 38px;
     font-family: "GilroyBold";
     margin-bottom: 30px;
+
+    @media (max-width: 720px) {
+      font-size: 32px;
+    }
   }
 
   .articles {
@@ -28,7 +32,7 @@
 
     .article {
       width: 298px;
-      height: 385px;
+      min-height: 385px;
       border-radius: 30px;
       border: 1px solid #ececec;
       cursor: pointer;

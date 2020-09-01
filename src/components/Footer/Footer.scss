@@ -41,5 +41,9 @@ footer {
   .credit {
     font-size: 18px;
     font-family: "GilroyBold";
+
+    @media (max-width: 720px) {
+      display: none;
+    }
   }
 }

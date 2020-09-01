@@ -4,6 +4,18 @@
   overflow: hidden;
   position: relative;
 
+  @media (max-width: 1280px) {
+    padding: 0 100px;
+  }
+
+  @media (max-width: 1024px) {
+    padding: 0 60px;
+  }
+
+  @media (max-width: 720px) {
+    padding: 0 20px;
+  }
+
   .pattern {
     position: absolute;
     top: -5%;
@@ -12,7 +24,7 @@
     width: 120px;
     object-fit: contain;
 
-    @media (max-width: 720px) {
+    @media (max-width: 920px) {
       display: none;
     }
   }
@@ -21,14 +33,35 @@
     width: calc(90vh * 0.83);
     height: 90vh;
     object-fit: contain;
+
+    @media (max-width: 1024px) {
+      width: calc(70vh * 0.83);
+      height: 70vh;
+    }
+
+    @media (max-width: 720px) {
+      display: none;
+    }
   }
 
   .content {
     padding-top: 40px;
 
+    @media (max-width: 720px) {
+      padding: 20px;
+    }
+
     .title {
       font-family: "GilroyBold";
       font-size: 56px;
+
+      @media (max-width: 1024px) {
+        font-size: 42px;
+      }
+
+      @media (max-width: 720px) {
+        font-size: 32px;
+      }
     }
 
     .subtitle {
