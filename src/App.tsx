@@ -8,6 +8,8 @@ import {
   OurNumbers,
   Blog,
   Testimonials,
+  Footer,
+  Mail,
 } from "./components";
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <OurNumbers />
       <Blog />
       <Testimonials />
+      <Mail />
+      <Footer />
     </>
   );
 }

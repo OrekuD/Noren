@@ -1,12 +1,14 @@
 .testimonials {
-  padding: 40px 120px;
+  padding: 40px 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
 
   .section {
     margin-right: 30px;
     width: 280px;
+    margin-bottom: 20px;
 
     img {
       width: 250px;
@@ -33,6 +35,7 @@
     border: 1px solid #ececec;
     border-radius: 30px;
     padding: 25px;
+    margin-bottom: 20px;
 
     .profile {
       display: flex;
@@ -80,6 +83,29 @@
       margin-top: 15px;
       width: 90%;
       line-height: 20px;
+    }
+  }
+
+  .icons {
+    position: absolute;
+    right: 40px;
+    top: 0px;
+    width: 70px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 1px solid #ececec;
+      display: grid;
+      place-items: center;
+      margin: 6px 0;
+      cursor: pointer;
     }
   }
 }

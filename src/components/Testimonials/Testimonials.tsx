@@ -3,6 +3,7 @@ import "./Testimonials.scss";
 import Image from "../../assets/images/message.png";
 import Profile1 from "../../assets/images/profile-2.png";
 import Profile2 from "../../assets/images/profile-1.png";
+import { ChevronRight, ChevronLeft } from "../../svg/Svg";
 
 const testimonials = [
   {
@@ -46,6 +47,14 @@ const Testimonials = () => (
         </p>
       </div>
     ))}
+    <div className="icons">
+      <div className="icon">
+        <ChevronRight size={8} color="#000000" />
+      </div>
+      <div className="icon">
+        <ChevronLeft size={8} color="#000000" />
+      </div>
+    </div>
   </div>
 );
 

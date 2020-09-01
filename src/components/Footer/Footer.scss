@@ -1,0 +1,33 @@
+footer {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 200px;
+  background-color: #f7fbfe;
+  color: #2d2e2e;
+
+  .logo {
+    display: flex;
+    margin-left: 0px;
+
+    img {
+      width: 29px;
+      height: 33px;
+      object-fit: contain;
+    }
+
+    p {
+      font-size: 30px;
+      font-family: "GilroyBold";
+      margin-left: 6px;
+      cursor: pointer;
+    }
+  }
+
+  .credit {
+    font-size: 18px;
+    font-family: "GilroyBold";
+  }
+}
