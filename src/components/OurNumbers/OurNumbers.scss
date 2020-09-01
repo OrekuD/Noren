@@ -1,0 +1,49 @@
+.our-numbers {
+  display: flex;
+  padding: 50px 200px;
+  position: relative;
+  overflow: hidden;
+  margin: 40px 0;
+
+  .pattern {
+    position: absolute;
+    top: -5vh;
+    left: -20px;
+    height: 110vh;
+    width: 120px;
+    object-fit: contain;
+  }
+
+  .content {
+    width: 50%;
+
+    .title {
+      font-family: "GilroyBold";
+      font-size: 56px;
+      margin-top: 40px;
+    }
+
+    .subtitle {
+      font-family: "GilroyRegular";
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    button {
+      width: 215px;
+      height: 59px;
+      border-radius: 30px;
+      background-color: #6246e4;
+      color: white;
+      font-size: 22px;
+      font-family: "GilroyBold";
+      margin-top: 30px;
+    }
+  }
+
+  .colors {
+    width: 50%;
+    height: 400px;
+    object-fit: contain;
+  }
+}

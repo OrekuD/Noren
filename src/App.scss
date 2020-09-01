@@ -26,16 +26,19 @@ html {
 }
 
 @font-face {
-  font-family: "GilroyHeavy";
-  src: url(./assets/fonts/Gilroy-Heavy.ttf);
-}
-
-@font-face {
   font-family: "GilroyMedium";
   src: url(./assets/fonts/Gilroy-Medium.ttf);
 }
 
+@font-face {
+  font-family: "GilroyMediumItalic";
+  src: url(./assets/fonts/Gilroy-MediumItalic.ttf);
+}
+
 button {
+  border: none;
+  cursor: pointer;
+
   &:focus {
     outline: none;
   }

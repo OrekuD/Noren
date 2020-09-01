@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.scss";
-import { Banner, Brands, Benefits, Hero } from "./components";
+import { Banner, Brands, Benefits, Hero, OurNumbers, Blog } from "./components";
 
 function App() {
   return (
@@ -9,6 +9,8 @@ function App() {
       <Brands />
       <Benefits />
       <Hero />
+      <OurNumbers />
+      <Blog />
     </>
   );
 }

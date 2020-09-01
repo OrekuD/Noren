@@ -1,0 +1,76 @@
+.blog {
+  margin: 30px 0;
+  padding: 0 200px;
+
+  .title {
+    font-size: 38px;
+    font-family: "GilroyBold";
+    margin-bottom: 30px;
+  }
+
+  .articles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .article {
+      width: 298px;
+      height: 385px;
+      border-radius: 30px;
+      border: 1px solid #ececec;
+
+      .image {
+        width: 100%;
+        height: 178px;
+        object-fit: cover;
+      }
+
+      .content {
+        padding: 30px 20px;
+
+        .row {
+          display: flex;
+          justify-content: space-between;
+
+          .section {
+            display: flex;
+            align-items: center;
+
+            .icon {
+              width: 29px;
+              height: 29px;
+              border-radius: 50%;
+              background-color: #fbf3de;
+              margin-right: 6px;
+              display: grid;
+              place-items: center;
+
+              img {
+                width: 50%;
+                height: 50%;
+                object-fit: contain;
+              }
+            }
+
+            p {
+              font-size: 14px;
+              font-family: "GilroyMedium";
+            }
+          }
+        }
+
+        .label {
+          font-size: 22px;
+          font-family: "GilroyMediumItalic";
+          margin: 10px 0;
+        }
+
+        .text {
+          font-size: 14px;
+          font-family: "GilroyRegular";
+        }
+      }
+    }
+  }
+}

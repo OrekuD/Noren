@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <Header />
-      <img src={Pattern} alt="" className="pattern" />
+      <img src={Pattern} alt="Pattern" className="pattern" />
       <div className="content">
         <div className="hero-content">
           <p className="title">Get business solutions with Noren.</p>

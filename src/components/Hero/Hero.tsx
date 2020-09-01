@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.scss";
 import Image from "../../assets/images/Illustration.png";
+import Pattern from "../../assets/images/pattern.png";
 
 const ads = [
   {
@@ -37,7 +38,10 @@ const Hero = () => (
         </div>
       ))}
     </div>
+    <img src={Pattern} alt="Pattern" className="pattern" />
   </div>
 );
 
 export default Hero;
+
+// #FBF3DD
