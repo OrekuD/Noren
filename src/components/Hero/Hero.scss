@@ -11,6 +11,10 @@
     height: 110%;
     width: 120px;
     object-fit: contain;
+
+    @media (max-width: 720px) {
+      display: none;
+    }
   }
 
   .hero-image {
